@@ -1,0 +1,5 @@
+/*
+  Content-Security-Policy: default-src 'none'; script-src 'sha256-/fMsImmtqtyfIIXzpGrhtcA/g/dAi8VlfOR+E/1yiFs='; style-src 'sha256-1YOnBr1psFlnqeHy4tOVFbgJFiGL2dSssIXpyaeB6Uw='; frame-src https://blog.bioconductor.org; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=31536000
+  X-Content-Type-Options: nosniff

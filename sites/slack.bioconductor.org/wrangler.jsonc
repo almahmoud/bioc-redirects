@@ -1,0 +1,12 @@
+{
+  "name": "slack-bioconductor-org",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public"
+  },
+  "routes": [
+    { "pattern": "slack.bioconductor.org", "custom_domain": true }
+  ],
+  "workers_dev": false,
+  "preview_urls": false
+}
