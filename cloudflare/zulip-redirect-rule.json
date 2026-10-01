@@ -1,0 +1,15 @@
+{
+  "description": "zulip.bioconductor.org and chat.bioconductor.org to the Zulip invitation link",
+  "expression": "http.host in {\"zulip.bioconductor.org\" \"chat.bioconductor.org\"}",
+  "action": "redirect",
+  "action_parameters": {
+    "from_value": {
+      "target_url": {
+        "value": "https://community-bioc.zulipchat.com/join/4k2tpsy7h6zjbaduydwm2n56/"
+      },
+      "status_code": 302,
+      "preserve_query_string": true
+    }
+  },
+  "enabled": true
+}
